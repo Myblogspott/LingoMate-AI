@@ -1,0 +1,166 @@
+[
+  {
+    "sender": "Agent",
+    "text": "Hi"
+  },
+  {
+    "sender": "User",
+    "text": "Hi"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "User",
+    "text": "Hi"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "User",
+    "text": "hi"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "Agent",
+    "text": "hi"
+  },
+  {
+    "sender": "Agent",
+    "text": "Doing good, how are you?"
+  },
+  {
+    "sender": "User",
+    "text": "Namaste"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "User",
+    "text": "Namaste"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "User",
+    "text": "मस्ते! मैं आपकी कैसे मदद कर सकता हूँ"
+  },
+  {
+    "sender": "Bot",
+    "text": "I'm here to help!"
+  },
+  {
+    "sender": "User",
+    "text": "Good Morning"
+  },
+  {
+    "sender": "Bot",
+    "text": "Good morning! Wishing you a productive day."
+  },
+  {
+    "sender": "User",
+    "text": "नमस्ते"
+  },
+  {
+    "sender": "Bot",
+    "text": "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"
+  },
+  {
+    "sender": "User",
+    "text": "सुप्रभात"
+  },
+  {
+    "sender": "Bot",
+    "text": "सुप्रभात! आपकी सुबह शुभ हो।"
+  },
+  {
+    "sender": "User",
+    "text": "hello"
+  },
+  {
+    "sender": "Bot",
+    "text": "Hello! How can I assist you today?"
+  },
+  {
+    "sender": "User",
+    "text": "नमस्ते"
+  },
+  {
+    "sender": "Bot",
+    "text": "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"
+  },
+  {
+    "sender": "User",
+    "text": "good morning"
+  },
+  {
+    "sender": "Bot",
+    "text": "Good morning! Wishing you a productive day."
+  },
+  {
+    "sender": "User",
+    "text": "सुप्रभात"
+  },
+  {
+    "sender": "Bot",
+    "text": "सुप्रभात! आपकी सुबह शुभ हो।"
+  },
+  {
+    "sender": "Agent",
+    "text": "Hello"
+  },
+  {
+    "sender": "Agent",
+    "text": "Good what about you?"
+  },
+  {
+    "sender": "User",
+    "text": "hello"
+  },
+  {
+    "sender": "Bot",
+    "text": "Hello! How can I assist you today?"
+  },
+  {
+    "sender": "User",
+    "text": "नमस्ते"
+  },
+  {
+    "sender": "Bot",
+    "text": "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"
+  },
+  {
+    "sender": "User",
+    "text": "good morning"
+  },
+  {
+    "sender": "Bot",
+    "text": "Good morning! Wishing you a productive day."
+  },
+  {
+    "sender": "User",
+    "text": "सुप्रभात"
+  },
+  {
+    "sender": "Bot",
+    "text": "सुप्रभात! आपकी सुबह शुभ हो।"
+  },
+  {
+    "sender": "Agent",
+    "text": "Hello"
+  },
+  {
+    "sender": "Agent",
+    "text": "What about you?"
+  }
+]

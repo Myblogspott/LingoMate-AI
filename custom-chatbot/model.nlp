@@ -1,0 +1,452 @@
+{
+  "settings": {
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "autoSave": false,
+    "autoLoad": false,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en",
+      "hi"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "hello": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "good,morn": {
+            "intent": "morning_greeting",
+            "domain": "default"
+          },
+          "agent,connect,to": {
+            "intent": "handover_request",
+            "domain": "default"
+          },
+          "chat,disconnect,from,the": {
+            "intent": "disconnect_request",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "greeting": "default",
+          "morning_greeting": "default",
+          "handover_request": "default",
+          "disconnect_request": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "good morning",
+            "intent": "morning_greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "connect to agent",
+            "intent": "handover_request"
+          },
+          {
+            "domain": "default",
+            "utterance": "disconnect from the chat",
+            "intent": "disconnect_request"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "hello": 1,
+              "good": 1,
+              "morn": 1,
+              "connect": 1,
+              "to": 1,
+              "agent": 1,
+              "disconnect": 1,
+              "from": 1,
+              "the": 1,
+              "chat": 1
+            },
+            "intents": {
+              "greeting": 1,
+              "morning_greeting": 1,
+              "handover_request": 1,
+              "disconnect_request": 1
+            },
+            "intentFeatures": {
+              "greeting": {
+                "hello": 1
+              },
+              "morning_greeting": {
+                "good": 1,
+                "morn": 1
+              },
+              "handover_request": {
+                "connect": 1,
+                "to": 1,
+                "agent": 1
+              },
+              "disconnect_request": {
+                "disconnect": 1,
+                "from": 1,
+                "the": 1,
+                "chat": 1
+              }
+            },
+            "featuresToIntent": {
+              "hello": [
+                "greeting"
+              ],
+              "good": [
+                "morning_greeting"
+              ],
+              "morn": [
+                "morning_greeting"
+              ],
+              "connect": [
+                "handover_request"
+              ],
+              "to": [
+                "handover_request"
+              ],
+              "agent": [
+                "handover_request"
+              ],
+              "disconnect": [
+                "disconnect_request"
+              ],
+              "from": [
+                "disconnect_request"
+              ],
+              "the": [
+                "disconnect_request"
+              ],
+              "chat": [
+                "disconnect_request"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "hello",
+                "good",
+                "morn",
+                "connect",
+                "to",
+                "agent",
+                "disconnect",
+                "from",
+                "the",
+                "chat"
+              ],
+              "intents": [
+                "greeting",
+                "morning_greeting",
+                "handover_request",
+                "disconnect_request"
+              ],
+              "perceptrons": [
+                [
+                  10.534843444824219,
+                  -1.685833215713501,
+                  -1.685833215713501,
+                  -1.1369653940200806,
+                  -1.1369653940200806,
+                  -1.1369653940200806,
+                  -0.855473518371582,
+                  -0.855473518371582,
+                  -0.855473518371582,
+                  -0.855473518371582,
+                  3.4375783431672056
+                ],
+                [
+                  -1.6558893918991089,
+                  6.261629581451416,
+                  6.261629581451416,
+                  -0.6289929747581482,
+                  -0.6289929747581482,
+                  -0.6289929747581482,
+                  -0.47952353954315186,
+                  -0.47952353954315186,
+                  -0.47952353954315186,
+                  -0.47952353954315186,
+                  1.7387805238531568
+                ],
+                [
+                  -1.1069862842559814,
+                  -0.6083181500434875,
+                  -0.6083181500434875,
+                  4.381678104400635,
+                  4.381678104400635,
+                  4.381678104400635,
+                  -0.3679004907608032,
+                  -0.3679004907608032,
+                  -0.3679004907608032,
+                  -0.3679004907608032,
+                  1.1365480398035483
+                ],
+                [
+                  -0.8284730911254883,
+                  -0.46471869945526123,
+                  -0.46471869945526123,
+                  -0.347317099571228,
+                  -0.347317099571228,
+                  -0.347317099571228,
+                  3.3600127696990967,
+                  3.3600127696990967,
+                  3.3600127696990967,
+                  3.3600127696990967,
+                  0.8444429297815573
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "hi": {
+        "settings": {
+          "locale": "hi",
+          "trainByDomain": false,
+          "tag": "domain-manager-hi",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "नमस्": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "सुप्रभात": {
+            "intent": "morning_greeting",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "greeting": "default",
+          "morning_greeting": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "नमस्ते",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "सुप्रभात",
+            "intent": "morning_greeting"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "hi",
+              "tag": "nlu-hi",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "नमस्": 1,
+              "सुप्रभात": 1
+            },
+            "intents": {
+              "greeting": 1,
+              "morning_greeting": 1
+            },
+            "intentFeatures": {
+              "greeting": {
+                "नमस्": 1
+              },
+              "morning_greeting": {
+                "सुप्रभात": 1
+              }
+            },
+            "featuresToIntent": {
+              "नमस्": [
+                "greeting"
+              ],
+              "सुप्रभात": [
+                "morning_greeting"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "hi",
+                "tag": "nlu-hi",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "नमस्",
+                "सुप्रभात"
+              ],
+              "intents": [
+                "greeting",
+                "morning_greeting"
+              ],
+              "perceptrons": [
+                [
+                  10.62476634979248,
+                  -3.4869275093078613,
+                  3.569221390559939
+                ],
+                [
+                  -3.4782614707946777,
+                  10.6246337890625,
+                  3.5730609599232563
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "hi",
+        "नमस्ते"
+      ],
+      [
+        "en",
+        "good morning"
+      ],
+      [
+        "hi",
+        "सुप्रभात"
+      ],
+      [
+        "en",
+        "connect to agent"
+      ],
+      [
+        "en",
+        "disconnect from the chat"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "en": {
+        "greeting": [
+          {
+            "answer": "Hello! How can I assist you today?"
+          }
+        ],
+        "morning_greeting": [
+          {
+            "answer": "Good morning! Wishing you a productive day."
+          }
+        ],
+        "handover_request": [
+          {
+            "answer": "Connecting you to a human agent..."
+          }
+        ],
+        "disconnect_request": [
+          {
+            "answer": "You are now disconnected from the agent. How can I assist you further?"
+          }
+        ]
+      },
+      "hi": {
+        "greeting": [
+          {
+            "answer": "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"
+          }
+        ],
+        "morning_greeting": [
+          {
+            "answer": "सुप्रभात! आपकी सुबह शुभ हो।"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

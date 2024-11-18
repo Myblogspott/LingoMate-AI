@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat with our Bot</title>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Chat with our Bot</h1>
+    <div id="messages"></div>
+    <input id="input" autocomplete="off" /><button onclick="sendMessage()">Send</button>
+    <button onclick="endChat()">End Chat</button>
+    <script>
+      const socket = io();
+      const messagesDiv = document.getElementById('messages');
+
+      // Handle incoming messages from the bot or agent
+      socket.on('chat message', (msg) => {
+        // Only display messages that are not from the user
+        if (msg.sender !== 'User') {
+          const messageElement = document.createElement('div');
+          messageElement.textContent = `${msg.sender}: ${msg.text}`;
+          messagesDiv.appendChild(messageElement);
+        }
+      });
+
+      function sendMessage() {
+        const input = document.getElementById('input');
+        const messageText = input.value;
+
+        if (messageText.trim() === '') return; // Don't send empty messages
+
+        // Emit the message to the server
+        socket.emit('chat message', messageText);
+
+        // Display the user's message in the chat window immediately
+        const messageElement = document.createElement('div');
+        messageElement.textContent = `You: ${messageText}`;
+        messagesDiv.appendChild(messageElement);
+
+        input.value = ''; // Clear the input field
+      }
+
+      // End chat function
+      function endChat() {
+        socket.emit('end chat');
+        messagesDiv.innerHTML = ''; // Clear chat messages
+      }
+    </script>
+  </body>
+</html>

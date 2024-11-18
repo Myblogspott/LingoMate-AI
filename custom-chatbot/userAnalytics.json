@@ -1,0 +1,584 @@
+[
+  {
+    "socketId": "Uack5Xl4hWtLWUoxAAAB",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:40:48.925Z"
+  },
+  {
+    "socketId": "Uack5Xl4hWtLWUoxAAAB",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:40:56.426Z"
+  },
+  {
+    "socketId": "PGUu58Cd4tUsjl3BAAAD",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:40:56.487Z"
+  },
+  {
+    "socketId": "2HNhGaxG3E56yLRpAAAF",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:41:03.720Z"
+  },
+  {
+    "socketId": "2HNhGaxG3E56yLRpAAAF",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:10.483Z"
+  },
+  {
+    "socketId": "W6yC-bnxj_54KfwpAAAH",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:41:10.591Z"
+  },
+  {
+    "socketId": "PGUu58Cd4tUsjl3BAAAD",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:11.055Z"
+  },
+  {
+    "socketId": "SzSzP-KUpY5V8HXmAAAJ",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:41:15.476Z"
+  },
+  {
+    "socketId": "SzSzP-KUpY5V8HXmAAAJ",
+    "message": "Connect to agent",
+    "timestamp": "2024-11-18T20:41:28.959Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "SzSzP-KUpY5V8HXmAAAJ",
+    "message": "Hello",
+    "timestamp": "2024-11-18T20:41:38.491Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "SzSzP-KUpY5V8HXmAAAJ",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:40.182Z"
+  },
+  {
+    "socketId": "fc81ufh2C2ca44xkAAAL",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:41:40.238Z"
+  },
+  {
+    "socketId": "W6yC-bnxj_54KfwpAAAH",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:43.145Z"
+  },
+  {
+    "socketId": "W6yC-bnxj_54KfwpAAAH",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:43.145Z"
+  },
+  {
+    "socketId": "fc81ufh2C2ca44xkAAAL",
+    "message": "Disconnect",
+    "timestamp": "2024-11-18T20:41:49.799Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "fc81ufh2C2ca44xkAAAL",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:52.387Z"
+  },
+  {
+    "socketId": "fc81ufh2C2ca44xkAAAL",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T20:41:52.388Z"
+  },
+  {
+    "socketId": "bxuHKcQMH72H9CmnAAAN",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:53:22.509Z"
+  },
+  {
+    "socketId": "Hz27idrXU8RZVn6sAAAP",
+    "event": "connected",
+    "timestamp": "2024-11-18T20:53:24.804Z"
+  },
+  {
+    "socketId": "Hz27idrXU8RZVn6sAAAP",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T21:32:13.914Z"
+  },
+  {
+    "socketId": "bxuHKcQMH72H9CmnAAAN",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T21:33:03.918Z"
+  },
+  {
+    "socketId": "YAboyJackC3ApyUnAAAR",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:19:25.515Z"
+  },
+  {
+    "socketId": "rg4sTELzDXBTPXIQAAAT",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:19:25.826Z"
+  },
+  {
+    "socketId": "YAboyJackC3ApyUnAAAR",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:21:14.246Z"
+  },
+  {
+    "socketId": "nk3_-5s6LpMQsjg-AAAV",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:21:14.589Z"
+  },
+  {
+    "socketId": "nk3_-5s6LpMQsjg-AAAV",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:24:31.861Z"
+  },
+  {
+    "socketId": "5rRAcs5BEyicDTXOAAAX",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:24:32.107Z"
+  },
+  {
+    "socketId": "5rRAcs5BEyicDTXOAAAX",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:24:36.767Z"
+  },
+  {
+    "socketId": "6GLagO7SESwppE7MAAAZ",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:24:36.828Z"
+  },
+  {
+    "socketId": "rg4sTELzDXBTPXIQAAAT",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:24:40.125Z"
+  },
+  {
+    "socketId": "qrSjDtDSwRB1_8jhAAAb",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:24:40.198Z"
+  },
+  {
+    "socketId": "6GLagO7SESwppE7MAAAZ",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:26:06.322Z"
+  },
+  {
+    "socketId": "LUtbnjA-47rENRA9AAAd",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:26:06.391Z"
+  },
+  {
+    "socketId": "LUtbnjA-47rENRA9AAAd",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:26:48.246Z"
+  },
+  {
+    "socketId": "sRD0NTGagxf6MsBlAAAf",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:26:48.310Z"
+  },
+  {
+    "socketId": "sRD0NTGagxf6MsBlAAAf",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:27:27.853Z"
+  },
+  {
+    "socketId": "jpBBmJ7gaxxMOXwjAAAh",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:27:27.922Z"
+  },
+  {
+    "socketId": "jpBBmJ7gaxxMOXwjAAAh",
+    "message": "Hi",
+    "timestamp": "2024-11-18T22:27:35.987Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "mn8fGr3T7RzhCDsFAAAj",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:28:45.334Z"
+  },
+  {
+    "socketId": "mn8fGr3T7RzhCDsFAAAj",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:28:48.263Z"
+  },
+  {
+    "socketId": "1CvJvTayxr2BefppAAAl",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:28:48.301Z"
+  },
+  {
+    "socketId": "1CvJvTayxr2BefppAAAl",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:28:56.456Z"
+  },
+  {
+    "socketId": "9w0hLNWOe80tGjt-AAAn",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:28:56.484Z"
+  },
+  {
+    "socketId": "9w0hLNWOe80tGjt-AAAn",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:29:03.796Z"
+  },
+  {
+    "socketId": "bEiZP9sIV-Xit9ZnAAAp",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:29:03.820Z"
+  },
+  {
+    "socketId": "jpBBmJ7gaxxMOXwjAAAh",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:06.189Z"
+  },
+  {
+    "socketId": "_hHB2j-O3uXd7wS7AAAr",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:06.284Z"
+  },
+  {
+    "socketId": "qrSjDtDSwRB1_8jhAAAb",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:10.772Z"
+  },
+  {
+    "socketId": "N7tjl7wbIIU5RLJ1AAAt",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:10.847Z"
+  },
+  {
+    "socketId": "_hHB2j-O3uXd7wS7AAAr",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:12.862Z"
+  },
+  {
+    "socketId": "EVJTuyY9Abu_44POAAAv",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:12.922Z"
+  },
+  {
+    "socketId": "EVJTuyY9Abu_44POAAAv",
+    "message": "Hi",
+    "timestamp": "2024-11-18T22:30:19.574Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "EVJTuyY9Abu_44POAAAv",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:38.696Z"
+  },
+  {
+    "socketId": "kDXoB8CysCbS2U2lAAAx",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:38.796Z"
+  },
+  {
+    "socketId": "kDXoB8CysCbS2U2lAAAx",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:48.928Z"
+  },
+  {
+    "socketId": "EybHUfP4-2PWBHJUAAAz",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:48.992Z"
+  },
+  {
+    "socketId": "EybHUfP4-2PWBHJUAAAz",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:30:55.701Z"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:30:55.761Z"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "message": "hi",
+    "timestamp": "2024-11-18T22:30:59.213Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "message": "connect to agent",
+    "timestamp": "2024-11-18T22:31:07.834Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "message": "How may I help you today?",
+    "timestamp": "2024-11-18T22:31:32.446Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "message": "Disconnect,",
+    "timestamp": "2024-11-18T22:32:03.004Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "message": "Disconnect",
+    "timestamp": "2024-11-18T22:32:18.432Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:32:29.108Z"
+  },
+  {
+    "socketId": "HzUxfqmdmr83ITDkAAA1",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:32:29.108Z"
+  },
+  {
+    "socketId": "N7tjl7wbIIU5RLJ1AAAt",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:32:32.279Z"
+  },
+  {
+    "socketId": "N7tjl7wbIIU5RLJ1AAAt",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:32:32.279Z"
+  },
+  {
+    "socketId": "ma6h0fJZGnE4B67HAAA3",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:32:42.741Z"
+  },
+  {
+    "socketId": "ma6h0fJZGnE4B67HAAA3",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:33:44.039Z"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:33:44.149Z"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "Namaste",
+    "timestamp": "2024-11-18T22:33:55.483Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "Namaste",
+    "timestamp": "2024-11-18T22:34:15.342Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "connect to agent",
+    "timestamp": "2024-11-18T22:34:30.392Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "मस्ते! मैं आपकी कैसे मदद कर सकता हूँ",
+    "timestamp": "2024-11-18T22:35:35.540Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "Good Morning",
+    "timestamp": "2024-11-18T22:35:51.054Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "नमस्ते",
+    "timestamp": "2024-11-18T22:36:20.344Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "message": "सुप्रभात",
+    "timestamp": "2024-11-18T22:36:35.225Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bEiZP9sIV-Xit9ZnAAAp",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:37:22.804Z"
+  },
+  {
+    "socketId": "F7gUFFACPbnUafkwAAA5",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:37:35.569Z"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:37:35.632Z"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "hello",
+    "timestamp": "2024-11-18T22:37:54.499Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "नमस्ते",
+    "timestamp": "2024-11-18T22:38:03.244Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "good morning",
+    "timestamp": "2024-11-18T22:38:11.114Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "सुप्रभात",
+    "timestamp": "2024-11-18T22:38:18.057Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "connect to agent",
+    "timestamp": "2024-11-18T22:38:28.655Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "GnSD-rSDeJ0LbaS-AAA9",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:38:31.709Z"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "connect to agent",
+    "timestamp": "2024-11-18T22:38:35.387Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "Hi",
+    "timestamp": "2024-11-18T22:38:57.877Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "Hope you're doing good today",
+    "timestamp": "2024-11-18T22:39:12.824Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "Cool",
+    "timestamp": "2024-11-18T22:39:42.825Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "message": "disconnect from the chat",
+    "timestamp": "2024-11-18T22:40:08.749Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "LdI3jf_f0UBYsdFQAAA_",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:41:22.937Z"
+  },
+  {
+    "socketId": "LdI3jf_f0UBYsdFQAAA_",
+    "message": "disconnect from the chat",
+    "timestamp": "2024-11-18T22:41:31.706Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "GnSD-rSDeJ0LbaS-AAA9",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:41:37.861Z"
+  },
+  {
+    "socketId": "MWEyP0uip9MjLVhKAABB",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:41:37.924Z"
+  },
+  {
+    "socketId": "bdOCRifx1Cxnxaa9AAA7",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T22:41:42.696Z"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "event": "connected",
+    "timestamp": "2024-11-18T22:41:42.758Z"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "hello",
+    "timestamp": "2024-11-18T22:42:07.463Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "नमस्ते",
+    "timestamp": "2024-11-18T22:42:14.922Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "good morning",
+    "timestamp": "2024-11-18T22:42:22.965Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "सुप्रभात",
+    "timestamp": "2024-11-18T22:42:31.610Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "connect to agent",
+    "timestamp": "2024-11-18T22:42:41.082Z",
+    "handover": "bot"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "Hi",
+    "timestamp": "2024-11-18T22:42:52.135Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "Hope you're doing good",
+    "timestamp": "2024-11-18T22:43:11.570Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "Yes, doing good",
+    "timestamp": "2024-11-18T22:43:29.124Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "message": "disconnect from the chat",
+    "timestamp": "2024-11-18T22:43:55.210Z",
+    "handover": "agent"
+  },
+  {
+    "socketId": "LdI3jf_f0UBYsdFQAAA_",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T23:08:13.132Z"
+  },
+  {
+    "socketId": "Xm_Sora9ZIyWdBg8AABD",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T23:11:09.212Z"
+  },
+  {
+    "socketId": "MWEyP0uip9MjLVhKAABB",
+    "event": "disconnected",
+    "timestamp": "2024-11-18T23:11:10.478Z"
+  }
+]

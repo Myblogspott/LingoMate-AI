@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agent Dashboard</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Agent Dashboard</h1>
+    <div id="agentMessages"></div>
+    <input id="agentInput" autocomplete="off" placeholder="Type a response..." />
+    <button onclick="sendAgentMessage()">Send</button>
+    <button onclick="endChat()">End Chat</button>
+    <script>
+      const socket = io();
+      const agentMessagesDiv = document.getElementById('agentMessages');
+
+      socket.emit('register agent');
+
+      socket.on('handover', ({ userSocketId, message }) => {
+        const messageElement = document.createElement('div');
+        messageElement.textContent = `User: ${message}`;
+        agentMessagesDiv.appendChild(messageElement);
+        window.userSocketId = userSocketId; // Save userSocketId
+      });
+
+      socket.on('chat message', (msg) => {
+        if (msg.sender === 'User') {
+          const messageElement = document.createElement('div');
+          messageElement.textContent = `User: ${msg.text}`;
+          agentMessagesDiv.appendChild(messageElement);
+        }
+      });
+
+      function sendAgentMessage() {
+        const input = document.getElementById('agentInput');
+        const messageText = input.value.trim();
+
+        if (!messageText) return; // Don't send empty messages
+
+        socket.emit('agent message', { userSocketId: window.userSocketId, message: messageText });
+
+        // Display agent's message
+        const agentMessageElement = document.createElement('div');
+        agentMessageElement.textContent = `Agent: ${messageText}`;
+        agentMessagesDiv.appendChild(agentMessageElement);
+
+        input.value = ''; // Clear input field
+      }
+
+      function endChat() {
+        socket.emit('end chat');
+        agentMessagesDiv.innerHTML = ''; // Clear chat messages
+      }
+    </script>
+  </body>
+</html>
